@@ -1,30 +1,37 @@
 {
   "name": "JATE",
+  "private": "true",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
     "start": "webpack --watch"
   },
+  "keywords": [],
   "author": "2U",
-  "license": "UNLICENSED",
+  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.15.0",
+    "@babel/core": "^7.19.0",
     "@babel/plugin-transform-runtime": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-env": "^7.19.0",
     "@babel/runtime": "^7.15.3",
-    "babel-loader": "^8.2.2",
-    "css-loader": "^6.2.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.3.2",
     "http-server": "^0.11.1",
-    "style-loader": "^3.2.1",
-    "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.0.0",
     "webpack-pwa-manifest": "^4.3.0",
     "workbox-webpack-plugin": "^6.2.4"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.1",
+    "build": "^0.1.4",
     "code-mirror-themes": "^1.0.0",
-    "idb": "^6.1.2"
+    "idb": "^6.1.2",
+    "npm": "^8.19.1",
+    "run": "^1.4.0"
   }
 }
