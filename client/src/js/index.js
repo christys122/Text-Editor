@@ -5,6 +5,12 @@ import '../css/style.css';
 import './header';
 import './install';
 import '../css/style.css'
+//import { initdb } from './database';
+
+window.addEventListener('load', function() {
+  initdb();
+
+});
 
 const main = document.querySelector('#main');
 main.innerHTML = '';
