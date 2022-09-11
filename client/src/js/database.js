@@ -23,7 +23,7 @@ export const putDb = async (content) => {
 
   const store = tx.objectStore('contacts');
 
-  const request = store.add({content});
+  const request = store.put({content});
 
   const result = await request;
   console.log('data saved to database', result);
