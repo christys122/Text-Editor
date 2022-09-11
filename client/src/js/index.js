@@ -4,13 +4,19 @@ import './database';
 import '../css/style.css';
 import './header';
 import './install';
-import '../css/style.css'
+import { getDb, putDb } from './database';
+//import '../css/style.css'
 //import { initdb } from './database';
 
 window.addEventListener('load', function() {
-  initdb();
+  initdb()
 
-});
+  //temp
+  getDb();
+  putDb();
+  getDb();
+
+})
 
 const main = document.querySelector('#main');
 main.innerHTML = '';
